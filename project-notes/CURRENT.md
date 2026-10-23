@@ -1,12 +1,12 @@
 # CURRENT（現在地点）
 
 <details>
-<summary>Document Info（文書情報）｜PROFILE-CURRENT-001｜0.11｜Draft</summary>
+<summary>Document Info（文書情報）｜PROFILE-CURRENT-001｜0.12｜Draft</summary>
 
 | Item（項目） | Value（値） |
 |---|---|
 | Document ID（文書ID） | PROFILE-CURRENT-001 |
-| Version（バージョン） | 0.11 |
+| Version（バージョン） | 0.12 |
 | Status（ステータス） | Draft |
 | Created Date（作成日） | 2026-10-18 |
 | Last Updated（最終更新日） | 2026-10-23 |
@@ -29,26 +29,29 @@ GitHubプロフィールを生徒向け教材の総合入口とし、教材概�
 - 2026-10-23：プレビュー用READMEの上下181pxのSVG装飾帯を作成してブランチへ反映（40fb27f）。GitHubのブラウザで上部・下部の実表示を確認。mainへの反映は未実施。
 - 2026-10-23：プレビュー用READMEの公開範囲とログイン・404案内の文言を修正してブランチへ反映（36ccc61）。GitHubのブラウザで新文言の表示、旧説明の削除、上下バナーの残存を確認。mainへの反映は未実施。
 - 2026-10-23：上下181pxのバナーをエンジ系に再配色し、上部中央に「教材案内」を配置してプレビュー用ブランチへ反映（53f28f1）。SVG構文・描画・差分と、GitHubブラウザでのタイトル・上下バナー表示を確認。mainへの反映は未実施。
+- 2026-10-23：利用者指定順の5教材一覧改訂案を作成。Officeデモを一覧から外し、設計文書管理入門は配布先未作成として記載。GitHubでの改訂後表示確認待ち。
 
 ## Current（現在）
 
 - プロフィールRepositoryはPublic、default branchはmain。公開プロフィールOverviewにREADME「教材案内」が表示されている。
-- 前回確認時、dokoTsubu-platformはPublic。office-addin-dokotsubu-demoは限定公開方針に対しPublic。
 - 受講生用AI教材は前回の接続では取得できず、Visibility・更新内容・受講生権限は未確認。
 - READMEは公開方針と実状態を区別し、講師用正本への生徒向けリンクを掲載していない。更新履歴5件を手動で管理している。
 - エンジ系と上部タイトルを合わせた案はプレビュー用ブランチで表示確認済み。公開プロフィールOverviewのmainには未反映。
 - プレビュー用READMEの案内文は利用者指定の文言でGitHub表示確認済み。
+- 5教材の一覧改訂案は作成済みで、GitHubでの表示確認待ち。設計文書管理入門の受講生向け配布Repositoryは未作成。
 
 ## Next（次）
 
 - 受講生用教材のVisibility・権限と公開可能な更新内容を確認する。
 - Visibility変更は未承認のため実施しない。
 - プレビュー用ブランチのデザインの採用を判断する。
+- GitHubで5教材の一覧改訂案のリンクと表示を確認する。
 
 ## Blockers（阻害要因）
 
 - 受講生用RepositoryのVisibility・権限等は未確認。
-- 前回確認時、限定公開方針とPublicの実状態に不一致があった。Visibilityは未変更。
+- 設計文書管理入門の受講生向け配布Repositoryは未作成。
+- 新しい一覧改訂案のGitHub表示確認は未実施。
 
 ## Related Decisions（関連Decision）
 
