@@ -1,12 +1,12 @@
 # CURRENT（現在地点）
 
 <details>
-<summary>Document Info（文書情報）｜PROFILE-CURRENT-001｜0.9｜Draft</summary>
+<summary>Document Info（文書情報）｜PROFILE-CURRENT-001｜0.10｜Draft</summary>
 
 | Item（項目） | Value（値） |
 |---|---|
 | Document ID（文書ID） | PROFILE-CURRENT-001 |
-| Version（バージョン） | 0.9 |
+| Version（バージョン） | 0.10 |
 | Status（ステータス） | Draft |
 | Created Date（作成日） | 2026-10-18 |
 | Last Updated（最終更新日） | 2026-10-23 |
@@ -28,6 +28,7 @@ GitHubプロフィールを生徒向け教材の総合入口とし、教材概�
 - 2026-10-23：プロフィールREADMEのデザイン案とバナー画像をプレビュー用ブランチ `preview/profile-readme-design-20261023` に配置。ブラウザでREADMEの表示を確認。mainへの反映は未実施。
 - 2026-10-23：プレビュー用READMEの上下181pxのSVG装飾帯を作成してブランチへ反映（40fb27f）。GitHubのブラウザで上部・下部の実表示を確認。mainへの反映は未実施。
 - 2026-10-23：プレビュー用READMEの公開範囲とログイン・404案内の文言を修正してブランチへ反映（36ccc61）。GitHubのブラウザで新文言の表示、旧説明の削除、上下バナーの残存を確認。mainへの反映は未実施。
+- 2026-10-23：上下181pxのバナーをエンジ系に再配色し、上部中央に「教材案内」を配置した案を作成。SVG構文・描画・差分を確認。改訂後のGitHub表示確認は未実施。
 
 ## Current（現在）
 
@@ -35,19 +36,20 @@ GitHubプロフィールを生徒向け教材の総合入口とし、教材概�
 - 前回確認時、dokoTsubu-platformはPublic。office-addin-dokotsubu-demoは限定公開方針に対しPublic。
 - 受講生用AI教材は前回の接続では取得できず、Visibility・更新内容・受講生権限は未確認。
 - READMEは公開方針と実状態を区別し、講師用正本への生徒向けリンクを掲載していない。更新履歴5件を手動で管理している。
-- 上下181pxのSVG装飾案はプレビュー用ブランチで表示確認済み。公開プロフィールOverviewに表示されるのはmainのREADMEである。
+- エンジ系と上部タイトルを合わせた新案はSVG描画確認済みで、GitHubでの改訂後表示確認待ち。公開プロフィールOverviewに表示されるのはmainのREADMEである。
 - プレビュー用READMEの案内文は利用者指定の文言でGitHub表示確認済み。
 
 ## Next（次）
 
 - 受講生用教材のVisibility・権限と公開可能な更新内容を確認する。
 - Visibility変更は未承認のため実施しない。
-- プレビュー用ブランチのデザインの採用を判断する。
+- エンジ系と上部タイトルの新案をプレビュー用ブランチで表示確認し、デザインの採用を判断する。
 
 ## Blockers（阻害要因）
 
 - 受講生用RepositoryのVisibility・権限等は未確認。
 - 前回確認時、限定公開方針とPublicの実状態に不一致があった。Visibilityは未変更。
+- 新案のGitHub上の表示確認は未実施。
 
 ## Related Decisions（関連Decision）
 

@@ -1,20 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2172 181" width="2172" height="181" role="img" aria-label="濃紺と青緑の細い下部バナー">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2172 181" width="2172" height="181" role="img" aria-label="深いエンジとくすんだローズの細い下部バナー">
   <defs>
     <linearGradient id="background" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#0b253b"/>
-      <stop offset="0.44" stop-color="#12324a"/>
-      <stop offset="1" stop-color="#071a2f"/>
+      <stop offset="0" stop-color="#451827"/>
+      <stop offset="0.44" stop-color="#612638"/>
+      <stop offset="1" stop-color="#36121f"/>
     </linearGradient>
     <linearGradient id="ribbon" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#77d0be" stop-opacity="0.18"/>
-      <stop offset="0.48" stop-color="#45b8b0" stop-opacity="0.55"/>
-      <stop offset="1" stop-color="#1b7180" stop-opacity="0.08"/>
+      <stop offset="0" stop-color="#e5b09b" stop-opacity="0.18"/>
+      <stop offset="0.48" stop-color="#d48783" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#9e5263" stop-opacity="0.08"/>
     </linearGradient>
   </defs>
   <rect width="2172" height="181" fill="url(#background)"/>
-  <path d="M0 105C373 139 610 38 886 53S1277 150 1542 112 1936 44 2172 26V181H0Z" fill="#164259" opacity="0.65"/>
+  <path d="M0 105C373 139 610 38 886 53S1277 150 1542 112 1936 44 2172 26V181H0Z" fill="#7a3449" opacity="0.65"/>
   <path d="M0 141C252 169 506 78 786 66S1246 155 1537 117 1916 24 2172 7" fill="none" stroke="url(#ribbon)" stroke-width="13"/>
-  <path d="M0 123C295 159 594 45 875 48S1263 132 1554 89 1950 28 2172 35" fill="none" stroke="#72c8c0" stroke-opacity="0.24" stroke-width="2"/>
-  <circle cx="337" cy="100" r="4" fill="#8cded1" opacity="0.55"/>
-  <circle cx="257" cy="111" r="2" fill="#8cded1" opacity="0.5"/>
+  <path d="M0 123C295 159 594 45 875 48S1263 132 1554 89 1950 28 2172 35" fill="none" stroke="#e3a198" stroke-opacity="0.24" stroke-width="2"/>
+  <circle cx="337" cy="100" r="4" fill="#f1b9a3" opacity="0.55"/>
+  <circle cx="257" cy="111" r="2" fill="#f1b9a3" opacity="0.5"/>
 </svg>
