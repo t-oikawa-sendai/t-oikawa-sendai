@@ -1,16 +1,44 @@
+![学びの道筋を表した濃紺と青緑のバナー](profile-banner-concept.png)
+
 # 教材案内
 
-授業や自主学習に使う教材の入口です。教材名をクリックすると、GitHubの教材ページを開きます。
+授業や自主学習に使う教材の入口です。教材名を選ぶと、GitHubの教材ページを開きます。
+
+---
 
 ## 教材一覧
 
-一般公開する教材は「どこつぶ」のみです。ほかの教材は限定公開を方針としていますが、現在の閲覧状態は下表で確認してください。
+一般公開する教材は「どこつぶ」のみです。ほかの教材は限定公開を方針としています。公開方針と現在の閲覧状態は、各教材の案内で分けて示します。
 
-| 教材 | 学べること | 公開方針 | 現在の閲覧状態（2026-10-23確認） | 教材の更新日・変更概要 |
-|---|---|---|---|---|
-| [どこつぶ（dokoTsubu-platform）](https://github.com/t-oikawa-sendai/dokoTsubu-platform) | Javaで、ログインや投稿ができるWebアプリの構成を学びます。 | 一般公開 | Public：誰でも閲覧できます。 | 2026-10-15：基本操作の確認結果を文書に記録しました。公開アプリへの新機能追加を示す更新ではありません。 |
-| [AI活用入門（ai-setup-materials-student）](https://github.com/OSLIB21-materials/ai-setup-materials-student) | AIに調査・設計・コード生成・レビューの役割を分けて依頼する方法を学びます。 | 受講生限定 | 閲覧状態は未確認です。講師からの案内に従ってください。 | 未確認 |
-| [Office・Excel VBAのどこつぶデモ](https://github.com/t-oikawa-sendai/office-addin-dokotsubu-demo) | Officeの追加機能と、Excel VBAによる画面・操作のサンプルを学びます。 | 限定公開 | 切替前：現在はPublicで、閲覧制限はありません。 | 2026-04-04：Office・Excel VBAの学習用サンプルと説明を掲載しました。 |
+### [どこつぶ（dokoTsubu-platform）](https://github.com/t-oikawa-sendai/dokoTsubu-platform)
+
+Javaで、ログインや投稿ができるWebアプリの構成を学びます。
+
+- **公開方針：** 一般公開
+- **現在の閲覧状態（2026-10-23確認）：** Public。誰でも閲覧できます。
+- **教材の更新日・変更概要：** 2026-10-15。基本操作の確認結果を文書に記録しました。公開アプリへの新機能追加を示す更新ではありません。
+
+---
+
+### [AI活用入門（ai-setup-materials-student）](https://github.com/OSLIB21-materials/ai-setup-materials-student)
+
+AIに調査・設計・コード生成・レビューの役割を分けて依頼する方法を学びます。
+
+- **公開方針：** 受講生限定
+- **現在の閲覧状態（2026-10-23確認）：** 未確認です。講師からの案内に従ってください。
+- **教材の更新日・変更概要：** 未確認
+
+---
+
+### [Office・Excel VBAのどこつぶデモ](https://github.com/t-oikawa-sendai/office-addin-dokotsubu-demo)
+
+Officeの追加機能と、Excel VBAによる画面・操作のサンプルを学びます。
+
+- **公開方針：** 限定公開
+- **現在の閲覧状態（2026-10-23確認）：** 切替前。現在はPublicで、閲覧制限はありません。
+- **教材の更新日・変更概要：** 2026-04-04。Office・Excel VBAの学習用サンプルと説明を掲載しました。
+
+---
 
 その他の教材は、原則として限定公開です。授業で案内する取得先を利用してください。
 
