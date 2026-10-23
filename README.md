@@ -14,7 +14,7 @@
 
 ### [AI活用入門（ai-setup-materials-student）](https://github.com/OSLIB21-materials/ai-setup-materials-student)
 
-AIに調査・設計・コード生成・レビューの役割を分けて依頼する方法を学びます。
+AIの基礎的な理解と使用する上での注意点の説明、AIの動作を制御するPersonaのサンプルの提供
 
 - **公開方針：** 受講生限定
 - **現在の閲覧状態（2026-10-23確認）：** Private。閲覧には権限が必要です。
