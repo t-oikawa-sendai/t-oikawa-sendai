@@ -1,12 +1,12 @@
 # CURRENT（現在地点）
 
 <details>
-<summary>Document Info（文書情報）｜PROFILE-CURRENT-001｜0.21｜Draft</summary>
+<summary>Document Info（文書情報）｜PROFILE-CURRENT-001｜0.22｜Draft</summary>
 
 | Item（項目） | Value（値） |
 |---|---|
 | Document ID（文書ID） | PROFILE-CURRENT-001 |
-| Version（バージョン） | 0.21 |
+| Version（バージョン） | 0.22 |
 | Status（ステータス） | Draft |
 | Created Date（作成日） | 2026-10-18 |
 | Last Updated（最終更新日） | 2026-10-23 |
@@ -37,21 +37,22 @@ GitHubプロフィールを生徒向け教材の総合入口とし、教材概�
 - 2026-10-23：受講生用AI教材のPrivate状態と2026-10-22の配布ガイド追加・README更新を確認し、プロフィールREADMEの閲覧状態、教材更新欄、直近5件のローカル修正案を作成（未Commit・未Push）。
 - 2026-10-23：AI活用入門の案内と直近5件の更新をmainへ反映（663231e）。公開プロフィールOverviewで、Private・2026-10-22の教材更新と、更新履歴の先頭がAI活用入門、残り4件がどこつぶであることをブラウザで確認。
 - 2026-10-23：READMEの楽譜リーダー見出しを「楽譜リーダー（Prototype）」、どこつぶ見出しと更新履歴4行を「DokoTsubu（Springboot Version）」へ統一するローカル修正案を作成（未Commit・未Push）。
+- 2026-10-23：両表示名の修正をmainへ反映（9e9b8ce）。公開プロフィールOverviewで「DokoTsubu（Springboot Version）」と「楽譜リーダー（Prototype）」の表示をブラウザで確認。
 
 ## Current（現在）
 
 - プロフィールRepositoryはPublic、default branchはmain。公開プロフィールOverviewにREADME「教材案内」が表示されている。
 - 受講生用AI教材はPrivate。2026-10-22の配布ガイド追加・README更新を確認済み。受講生個別の権限付与状況は未確認。
 - READMEは公開方針と実状態を区別し、講師用正本への生徒向けリンクを掲載していない。更新履歴5件を手動で管理している。
-- READMEの教材案内と更新履歴はmainへ反映済み。公開プロフィールOverviewの直近5件は2026-10-22のAI活用入門を先頭とし、残り4件がどこつぶであることを表示確認済み。
+- READMEの教材案内と更新履歴はmainへ反映済み。直近5件は2026-10-22のAI活用入門が先頭で、残り4件の教材名はDokoTsubu（Springboot Version）に更新済み。
 - 明るい大理石調の上下バナーと背景なしの上部タイトルはmainに反映済み。公開プロフィールOverviewで、指定順5教材、案内文、ポートフォリオ参考資料2リンクと合わせて表示確認済み。
-- ローカルでは楽譜リーダー見出しが「楽譜リーダー（Prototype）」、DokoTsubu見出しと更新履歴4行が「DokoTsubu（Springboot Version）」。公開プロフィールOverviewでは両方とも旧表記のまま。
+- 「DokoTsubu（Springboot Version）」と「楽譜リーダー（Prototype）」の見出しはmainへ反映済みで、公開プロフィールOverviewで表示確認済み。
 - 設計文書管理入門の受講生向け配布Repositoryは未作成。
 
 ## Next（次）
 
 - 受講生個別の閲覧権限を確認する。
-- 利用者のCommit・Push明示承認後に両表示名の修正をmainへ反映し、公開プロフィールOverviewで表示を確認する。
+- 受講生用Private Repositoryに実際に反映された変更だけを対象に、更新履歴を自動反映する方式を設計する（実装・稼働未了）。
 - Visibility変更は未承認のため実施しない。
 
 ## Blockers（阻害要因）
