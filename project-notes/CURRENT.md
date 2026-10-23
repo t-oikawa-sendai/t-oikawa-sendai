@@ -1,12 +1,12 @@
 # CURRENT（現在地点）
 
 <details>
-<summary>Document Info（文書情報）｜PROFILE-CURRENT-001｜0.23｜Draft</summary>
+<summary>Document Info（文書情報）｜PROFILE-CURRENT-001｜0.24｜Draft</summary>
 
 | Item（項目） | Value（値） |
 |---|---|
 | Document ID（文書ID） | PROFILE-CURRENT-001 |
-| Version（バージョン） | 0.23 |
+| Version（バージョン） | 0.24 |
 | Status（ステータス） | Draft |
 | Created Date（作成日） | 2026-10-18 |
 | Last Updated（最終更新日） | 2026-10-23 |
@@ -39,6 +39,7 @@ GitHubプロフィールを生徒向け教材の総合入口とし、教材概�
 - 2026-10-23：READMEの楽譜リーダー見出しを「楽譜リーダー（Prototype）」、どこつぶ見出しと更新履歴4行を「DokoTsubu（Springboot Version）」へ統一するローカル修正案を作成（未Commit・未Push）。
 - 2026-10-23：両表示名の修正をmainへ反映（9e9b8ce）。公開プロフィールOverviewで「DokoTsubu（Springboot Version）」と「楽譜リーダー（Prototype）」の表示をブラウザで確認。
 - 2026-10-23：AI活用入門の説明文をUser指定の文言へ置き換え、READMEだけをmainへ反映（26d86f2f0f2acbb710bc5b50bf42be543691ba18）。公開プロフィールOverviewで指定文言の表示と旧文の非表示をブラウザ確認。
+- 2026-10-23：配布先Private Repositoryに実際に反映された更新だけをプロフィール履歴へ反映する受信workflow・script・テストと、User採用済みの指定2欄だけの自動Commit・Push例外（D-001）をmainへ反映（c88a4286da54ae301fb971aadf4ad7a17d7d83cf）。GitHub main上の4ファイルを確認。Actions起動・稼働は未確認。
 
 ## Current（現在）
 
@@ -46,7 +47,7 @@ GitHubプロフィールを生徒向け教材の総合入口とし、教材概�
 - 受講生用AI教材はPrivate。2026-10-22の配布ガイド追加・README更新を確認済み。受講生個別の権限付与状況は未確認。
 - READMEは公開方針と実状態を区別し、講師用正本への生徒向けリンクを掲載していない。更新履歴5件を手動で管理している。
 - READMEの教材案内と更新履歴はmainへ反映済み。直近5件は2026-10-22のAI活用入門が先頭で、残り4件の教材名はDokoTsubu（Springboot Version）に更新済み。
-- AI活用入門の説明文はmainへ反映済みで、公開プロフィールOverviewでも表示確認済み。自動履歴の未承認草案は別checkoutにあり、この差分へ混ぜていない。
+- AI活用入門の説明文はmainへ反映済みで、公開プロフィールOverviewでも表示確認済み。自動履歴の受信workflow設定はmainに公開済み。通知用Secretが未登録のため連携は未稼働で、Actions起動は未確認。READMEは未変更・更新履歴は手動管理のまま。
 - 明るい大理石調の上下バナーと背景なしの上部タイトルはmainに反映済み。公開プロフィールOverviewで、指定順5教材、案内文、ポートフォリオ参考資料2リンクと合わせて表示確認済み。
 - 「DokoTsubu（Springboot Version）」と「楽譜リーダー（Prototype）」の見出しはmainへ反映済みで、公開プロフィールOverviewで表示確認済み。
 - 設計文書管理入門の受講生向け配布Repositoryは未作成。
@@ -54,14 +55,15 @@ GitHubプロフィールを生徒向け教材の総合入口とし、教材概�
 ## Next（次）
 
 - 受講生個別の閲覧権限を確認する。
-- 受講生用Private Repositoryに実際に反映された変更だけを対象に、更新履歴を自動反映する方式を設計する（実装・稼働未了）。
+- 講師正本側の採用済み通知設定を反映し、通知用Secretを登録する。Actionsの実行結果と公開プロフィール表示は別途確認する。Userは指定2欄に限る自動Commit・Pushを承認済み。
 - Visibility変更は未承認のため実施しない。
 
 ## Blockers（阻害要因）
 
 - 受講生個別の権限付与状況は未確認。
 - 設計文書管理入門の受講生向け配布Repositoryは未作成。
+- 通知用Secretが未登録で連携未稼働。Actions起動・結果は未確認。
 
 ## Related Decisions（関連Decision）
 
-- なし。2026-10-23の利用者提示「GitHubプロフィール・教材案内ページ整備指示」を今回仕様の根拠とする。
+- D-001。プロフィール整備の根拠は2026-10-23の利用者提示「GitHubプロフィール・教材案内ページ整備指示」。source側の通知・配布境界は講師正本 `ai-setup-materials/project-notes/DECISIONS.md` のD-072。
