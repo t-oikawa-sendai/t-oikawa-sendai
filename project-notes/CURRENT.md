@@ -1,12 +1,12 @@
 # CURRENT（現在地点）
 
 <details>
-<summary>Document Info（文書情報）｜PROFILE-CURRENT-001｜0.13｜Draft</summary>
+<summary>Document Info（文書情報）｜PROFILE-CURRENT-001｜0.14｜Draft</summary>
 
 | Item（項目） | Value（値） |
 |---|---|
 | Document ID（文書ID） | PROFILE-CURRENT-001 |
-| Version（バージョン） | 0.13 |
+| Version（バージョン） | 0.14 |
 | Status（ステータス） | Draft |
 | Created Date（作成日） | 2026-10-18 |
 | Last Updated（最終更新日） | 2026-10-23 |
@@ -30,26 +30,30 @@ GitHubプロフィールを生徒向け教材の総合入口とし、教材概�
 - 2026-10-23：プレビュー用READMEの公開範囲とログイン・404案内の文言を修正してブランチへ反映（36ccc61）。GitHubのブラウザで新文言の表示、旧説明の削除、上下バナーの残存を確認。mainへの反映は未実施。
 - 2026-10-23：上下181pxのバナーをエンジ系に再配色し、上部中央に「教材案内」を配置してプレビュー用ブランチへ反映（53f28f1）。SVG構文・描画・差分と、GitHubブラウザでのタイトル・上下バナー表示を確認。mainへの反映は未実施。
 - 2026-10-23：利用者指定順の5教材一覧をプレビュー用ブランチへ反映（b7102b2）。GitHubブラウザで指定順、Officeデモ除外、設計文書管理入門のリンクなし、JEV・score-readerのリンク、上下バナーと公開範囲案内を確認。mainへの反映は未実施。
+- 2026-10-23：上下181pxのバナーを暗い大理石調に変え、案内文とポートフォリオ参考資料2件を加えた改訂案を作成。SVG構文・描画とREADME差分を確認。改訂後のGitHub表示確認は未実施。
 
 ## Current（現在）
 
 - プロフィールRepositoryはPublic、default branchはmain。公開プロフィールOverviewにREADME「教材案内」が表示されている。
 - 受講生用AI教材は前回の接続では取得できず、Visibility・更新内容・受講生権限は未確認。
 - READMEは公開方針と実状態を区別し、講師用正本への生徒向けリンクを掲載していない。更新履歴5件を手動で管理している。
-- エンジ系と上部タイトルを合わせた案はプレビュー用ブランチで表示確認済み。公開プロフィールOverviewのmainには未反映。
-- プレビュー用READMEの案内文は利用者指定の文言でGitHub表示確認済み。
+- エンジ系と上部タイトルを合わせた旧案はGitHubで表示確認済み。公開プロフィールOverviewのmainには未反映。
+- 旧案の案内文はGitHubで表示確認済み。
 - 5教材の一覧改訂案はプレビュー用ブランチで表示確認済み。公開プロフィールOverviewのmainには未反映。設計文書管理入門の受講生向け配布Repositoryは未作成。
+- 大理石調バナー・案内文・参考資料の改訂案は作成・ローカル検証済み。改訂後のGitHub表示確認を待っている。
 
 ## Next（次）
 
 - 受講生用教材のVisibility・権限と公開可能な更新内容を確認する。
 - Visibility変更は未承認のため実施しない。
 - プレビュー用ブランチのデザインの採用を判断する。
+- 改訂案のGitHub上の表示を確認する。
 
 ## Blockers（阻害要因）
 
 - 受講生用RepositoryのVisibility・権限等は未確認。
 - 設計文書管理入門の受講生向け配布Repositoryは未作成。
+- 大理石調バナーと参考資料の新案はGitHub上で未確認。
 
 ## Related Decisions（関連Decision）
 

@@ -1,21 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2172 181" width="2172" height="181" role="img" aria-label="深いエンジとくすんだローズの細い上部バナー">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2172 181" width="2172" height="181" role="img" aria-label="教材案内：チャコールとスレートの大理石調上部バナー">
   <defs>
-    <linearGradient id="background" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#36121f"/>
-      <stop offset="0.56" stop-color="#612638"/>
-      <stop offset="1" stop-color="#451827"/>
+    <linearGradient id="stone" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#141a20"/>
+      <stop offset="0.48" stop-color="#2b343c"/>
+      <stop offset="1" stop-color="#171d23"/>
     </linearGradient>
-    <linearGradient id="ribbon" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#9e5263" stop-opacity="0.08"/>
-      <stop offset="0.52" stop-color="#d48783" stop-opacity="0.55"/>
-      <stop offset="1" stop-color="#e5b09b" stop-opacity="0.18"/>
+    <linearGradient id="shale" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#73818c" stop-opacity="0.03"/>
+      <stop offset="0.5" stop-color="#a9b4bd" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#687682" stop-opacity="0.02"/>
     </linearGradient>
   </defs>
-  <rect width="2172" height="181" fill="url(#background)"/>
-  <path d="M0 154C250 134 366 56 631 82S1015 190 1292 136 1776 42 2172 76V181H0Z" fill="#7a3449" opacity="0.65"/>
-  <path d="M0 174C256 175 455 105 714 124S1146 182 1437 107 1920 12 2172 40" fill="none" stroke="url(#ribbon)" stroke-width="13"/>
-  <path d="M0 145C290 128 454 63 718 80S1108 154 1399 96 1877 22 2172 58" fill="none" stroke="#e3a198" stroke-opacity="0.24" stroke-width="2"/>
-  <circle cx="1737" cy="43" r="4" fill="#f1b9a3" opacity="0.55"/>
-  <circle cx="1831" cy="35" r="2" fill="#f1b9a3" opacity="0.5"/>
-  <text x="1086" y="91" text-anchor="middle" dominant-baseline="middle" font-family="'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Noto Sans CJK JP', sans-serif" font-size="100" font-weight="700" letter-spacing="0.08em" fill="#fff4ec" stroke="#36121f" stroke-width="3" paint-order="stroke">教材案内</text>
+  <rect width="2172" height="181" fill="url(#stone)"/>
+  <path d="M0 111 278 43 472 67 654 24 839 63 1053 31 1260 61 1458 18 1695 57 1884 12 2172 58V181H0Z" fill="#45515b" opacity="0.11"/>
+  <path d="M0 31 203 61 434 29 648 91 855 58 1095 110 1341 69 1604 127 1837 74 2172 132V0H0Z" fill="#0b1117" opacity="0.17"/>
+  <path d="M-8 128C117 117 143 76 234 82S350 128 460 101 589 31 694 43 809 100 916 82 1060 27 1154 36 1274 101 1390 76 1535 25 1658 44 1771 105 1891 79 2042 18 2180 35" fill="none" stroke="#73808a" stroke-opacity="0.06" stroke-width="7"/>
+  <path d="M-8 125C121 116 145 78 237 84S350 124 460 98 587 35 697 47 809 96 918 78 1060 31 1153 39 1275 97 1390 72 1534 29 1657 48 1772 101 1891 75 2041 22 2180 38" fill="none" stroke="#b4c0c8" stroke-opacity="0.13" stroke-width="1.2"/>
+  <path d="M-4 49C124 35 215 106 323 87S521 23 646 53 817 138 956 113 1117 67 1226 85 1406 151 1511 133 1735 55 1848 69 2053 120 2178 101" fill="none" stroke="url(#shale)" stroke-width="3"/>
+  <path d="M-4 51C126 38 218 108 324 89S521 25 647 56 817 139 957 116 1117 70 1225 88 1406 153 1512 135 1735 58 1848 71 2053 123 2178 104" fill="none" stroke="#80909b" stroke-opacity="0.07" stroke-width="1"/>
+  <path d="M43 -5C78 23 82 43 143 56L212 85 257 87M143 56C177 57 188 39 221 10M212 85C206 110 231 126 263 145M342 186C381 153 421 143 462 105L493 81M462 105C507 111 527 130 570 135M1842 -6C1852 30 1883 48 1924 73L1993 92 2056 81M1924 73C1909 101 1920 115 1963 143M1993 92C2015 111 2043 122 2097 126" fill="none" stroke="#bbc5cb" stroke-opacity="0.24" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M0 173 83 144 129 116M83 144C126 152 158 169 190 185M2109 181 2048 134 2010 109M2048 134C2085 126 2113 105 2141 87" fill="none" stroke="#8f9da6" stroke-opacity="0.16" stroke-width="1.1" stroke-linecap="round"/>
+  <rect x="772" y="20" width="628" height="141" rx="13" fill="#080d12" fill-opacity="0.84" stroke="#a4b1ba" stroke-opacity="0.15"/>
+  <text x="1086" y="91" text-anchor="middle" dominant-baseline="middle" font-family="'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Noto Sans CJK JP', sans-serif" font-size="100" font-weight="700" letter-spacing="0.08em" fill="#ffffff" stroke="#080d12" stroke-width="3" paint-order="stroke">教材案内</text>
 </svg>
