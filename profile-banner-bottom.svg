@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2172 181" width="2172" height="181" role="img" aria-label="チャコールとスレートの大理石調下部バナー">
   <defs>
     <linearGradient id="stone" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#1b2229"/>
-      <stop offset="0.54" stop-color="#303a43"/>
-      <stop offset="1" stop-color="#11171d"/>
+      <stop offset="0" stop-color="#303b45"/>
+      <stop offset="0.54" stop-color="#4b5862"/>
+      <stop offset="1" stop-color="#28343e"/>
     </linearGradient>
     <linearGradient id="shale" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="#697783" stop-opacity="0.02"/>
@@ -12,8 +12,8 @@
     </linearGradient>
   </defs>
   <rect width="2172" height="181" fill="url(#stone)"/>
-  <path d="M0 38 238 79 447 28 678 67 849 19 1115 78 1332 26 1557 69 1809 20 1974 73 2172 33V181H0Z" fill="#495660" opacity="0.10"/>
-  <path d="M0 124 193 86 423 141 600 109 819 153 1039 92 1272 139 1497 81 1725 134 1958 77 2172 112V181H0Z" fill="#0b1117" opacity="0.18"/>
+  <path d="M0 38 238 79 447 28 678 67 849 19 1115 78 1332 26 1557 69 1809 20 1974 73 2172 33V181H0Z" fill="#81909a" opacity="0.09"/>
+  <path d="M0 124 193 86 423 141 600 109 819 153 1039 92 1272 139 1497 81 1725 134 1958 77 2172 112V181H0Z" fill="#17222b" opacity="0.11"/>
   <path d="M-8 37C109 44 195 111 307 94S499 28 604 54 759 120 859 106 1050 28 1157 44 1333 130 1456 110 1616 39 1717 57 1885 133 1991 101 2093 48 2180 68" fill="none" stroke="#778590" stroke-opacity="0.06" stroke-width="7"/>
   <path d="M-8 40C111 46 196 108 309 91S499 31 605 57 760 117 861 103 1050 32 1156 47 1334 126 1458 107 1617 42 1717 60 1885 130 1991 98 2093 51 2180 71" fill="none" stroke="#b6c1c9" stroke-opacity="0.12" stroke-width="1.2"/>
   <path d="M-5 147C122 131 239 65 368 73S579 153 701 141 865 81 977 93 1141 163 1269 145 1481 60 1611 72 1772 149 1904 135 2077 70 2178 89" fill="none" stroke="url(#shale)" stroke-width="3"/>
