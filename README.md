@@ -40,7 +40,7 @@ AIに調査・設計・コード生成・レビューの役割を分けて依頼
 
 ---
 
-### [どこつぶ（dokoTsubu-platform）](https://github.com/t-oikawa-sendai/dokoTsubu-platform)
+### [DokoTsubu（Springboot Version）](https://github.com/t-oikawa-sendai/dokoTsubu-platform)
 
 Javaで、ログインや投稿ができるWebアプリの構成を学びます。
 
@@ -50,7 +50,7 @@ Javaで、ログインや投稿ができるWebアプリの構成を学びます�
 
 ---
 
-### [楽譜リーダー（Prototype 作成中）](https://github.com/t-oikawa-sendai/score-reader)
+### [楽譜リーダー（Prototype）](https://github.com/t-oikawa-sendai/score-reader)
 
 MusicXMLの構造的な異常や要確認箇所を調べる試作中のCLIツールです。
 
@@ -70,10 +70,10 @@ MusicXMLの構造的な異常や要確認箇所を調べる試作中のCLIツー
 | 更新日 | 教材 | 変更概要 |
 |---|---|---|
 | 2026-10-22 | AI活用入門 | 受講生向け配布ガイドを追加し、教材案内を更新しました。 |
-| 2026-10-15 | どこつぶ | 基本操作の確認結果を文書に記録しました。公開アプリへの新機能追加ではありません。 |
-| 2026-10-08 | どこつぶ | READMEに、教材の現在の状態を確認する文書への案内を追加しました。 |
-| 2026-10-07 | どこつぶ | 生徒向けの配布準備ガイドを追加しました。配布版の導入手順は検証前です。 |
-| 2026-10-05 | どこつぶ | 版ごとの違いと学習内容を整理し、環境構築手順や関連文書を探しやすくしました。 |
+| 2026-10-15 | DokoTsubu（Springboot Version） | 基本操作の確認結果を文書に記録しました。公開アプリへの新機能追加ではありません。 |
+| 2026-10-08 | DokoTsubu（Springboot Version） | READMEに、教材の現在の状態を確認する文書への案内を追加しました。 |
+| 2026-10-07 | DokoTsubu（Springboot Version） | 生徒向けの配布準備ガイドを追加しました。配布版の導入手順は検証前です。 |
+| 2026-10-05 | DokoTsubu（Springboot Version） | 版ごとの違いと学習内容を整理し、環境構築手順や関連文書を探しやすくしました。 |
 
 <!-- 更新担当者向け：手動管理。公開してよい事実だけを日本語で要約し、新しい順に5件を残す。教材の更新日・変更概要も更新する。Private教材の内部記録をそのまま転記しない。未確認の日時・内容や、未反映の機能を公開済みとして記載しない。 -->
 
