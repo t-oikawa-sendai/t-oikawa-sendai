@@ -1,23 +1,33 @@
-<!--
-Program Name: Profile README
-Language: Markdown
-Function: 生徒向け学習リポジトリの入口リンクを示す
-Created: 2026-10-18
-Last Updated: 2026-10-20
-Author: Takashi Oikawa
-AI: Cursor
-Memo: D-020段階1。削除対象5件のリンクを外した。残すリンクはai-setup-materials、dokoTsubu-platform、office-addin-dokotsubu-demo
--->
+# 教材案内
 
-# 生徒向け学習リポジトリ
+授業や自主学習に使う教材の入口です。教材名をクリックすると、GitHubの教材ページを開きます。
 
-授業や自主学習に使える公開資料とサンプルをまとめています。
+## 教材一覧
 
-## 学習の入口
+一般公開する教材は「どこつぶ」のみです。ほかの教材は限定公開を方針としていますが、現在の閲覧状態は下表で確認してください。
 
-- 🆗[ai-setup-materials](https://github.com/t-oikawa-sendai/ai-setup-materials) — AIに調査・設計・コード生成・レビューの役割を分けて使うための入門資料です。
+| 教材 | 学べること | 公開方針 | 現在の閲覧状態（2026-10-23確認） | 教材の更新日・変更概要 |
+|---|---|---|---|---|
+| [どこつぶ（dokoTsubu-platform）](https://github.com/t-oikawa-sendai/dokoTsubu-platform) | Javaで、ログインや投稿ができるWebアプリの構成を学びます。 | 一般公開 | Public：誰でも閲覧できます。 | 2026-10-15：基本操作の確認結果を文書に記録しました。公開アプリへの新機能追加を示す更新ではありません。 |
+| [AI活用入門（ai-setup-materials-student）](https://github.com/OSLIB21-materials/ai-setup-materials-student) | AIに調査・設計・コード生成・レビューの役割を分けて依頼する方法を学びます。 | 受講生限定 | 閲覧状態は未確認です。講師からの案内に従ってください。 | 未確認 |
+| [Office・Excel VBAのどこつぶデモ](https://github.com/t-oikawa-sendai/office-addin-dokotsubu-demo) | Officeの追加機能と、Excel VBAによる画面・操作のサンプルを学びます。 | 限定公開 | 切替前：現在はPublicで、閲覧制限はありません。 | 2026-04-04：Office・Excel VBAの学習用サンプルと説明を掲載しました。 |
 
-## アプリのサンプル
+その他の教材は、原則として限定公開です。授業で案内する取得先を利用してください。
 
-- 🆗[dokoTsubu-platform](https://github.com/t-oikawa-sendai/dokoTsubu-platform) — JavaのWebアプリ「どこつぶ」の学習用サンプルです。
-- [office-addin-dokotsubu-demo](https://github.com/t-oikawa-sendai/office-addin-dokotsubu-demo) — Office Add-inとExcel VBAを使った教材用モックです。
+### 限定公開教材を開くには
+
+閲覧権限が設定されたGitHubアカウントでログインしてください。リンクを知っているだけでは、Privateの教材は閲覧できません。ページが見つからない場合は、利用中のアカウントを確認し、講師へ連絡してください。
+
+## 最近の更新（直近5件）
+
+生徒に関係する教材・案内の更新を、新しい順に掲載しています。日付は元の教材・文書の更新日です。
+
+| 更新日 | 教材 | 変更概要 |
+|---|---|---|
+| 2026-10-15 | どこつぶ | 基本操作の確認結果を文書に記録しました。公開アプリへの新機能追加ではありません。 |
+| 2026-10-08 | どこつぶ | READMEに、教材の現在の状態を確認する文書への案内を追加しました。 |
+| 2026-10-07 | どこつぶ | 生徒向けの配布準備ガイドを追加しました。配布版の導入手順は検証前です。 |
+| 2026-10-05 | どこつぶ | 版ごとの違いと学習内容を整理し、環境構築手順や関連文書を探しやすくしました。 |
+| 2026-10-04 | どこつぶ | READMEに公開アプリの入口と現行構成を示しました。 |
+
+<!-- 更新担当者向け：手動管理。公開してよい事実だけを日本語で要約し、新しい順に5件を残す。教材の更新日・変更概要も更新する。Private教材の内部記録をそのまま転記しない。未確認の日時・内容や、未反映の機能を公開済みとして記載しない。 -->
