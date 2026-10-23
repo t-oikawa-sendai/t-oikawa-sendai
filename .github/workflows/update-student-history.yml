@@ -1,0 +1,42 @@
+name: Update profile from distributed student materials
+
+on:
+  repository_dispatch:
+    types: [student_materials_updated]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-student-history-main
+  cancel-in-progress: false
+
+jobs:
+  update:
+    if: github.repository == 't-oikawa-sendai/t-oikawa-sendai' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out profile main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Update README from distributed date
+        env:
+          DISTRIBUTION_DATE: ${{ github.event.client_payload.date }}
+        run: python3 scripts/update_profile_history.py --date "$DISTRIBUTION_DATE" --readme README.md
+
+      - name: Commit README only when changed
+        shell: bash
+        run: |
+          set -euo pipefail
+          git add -- README.md
+          if git diff --cached --quiet; then
+            echo 'Profile history already current.'
+            exit 0
+          fi
+          git diff --cached --check
+          git -c user.name='t-oikawa-sendai' \
+              -c user.email='244720561+t-oikawa-sendai@users.noreply.github.com' \
+              commit -m 'docs: update distributed student material history'
+          git push origin HEAD:main
