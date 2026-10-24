@@ -1,12 +1,12 @@
 # CURRENT（現在地点）
 
 <details>
-<summary>Document Info（文書情報）｜PROFILE-CURRENT-001｜0.28｜Draft</summary>
+<summary>Document Info（文書情報）｜PROFILE-CURRENT-001｜0.29｜Draft</summary>
 
 | Item（項目） | Value（値） |
 |---|---|
 | Document ID（文書ID） | PROFILE-CURRENT-001 |
-| Version（バージョン） | 0.28 |
+| Version（バージョン） | 0.29 |
 | Status（ステータス） | Draft |
 | Created Date（作成日） | 2026-10-18 |
 | Last Updated（最終更新日） | 2026-10-24 |
@@ -21,6 +21,7 @@ GitHubプロフィールを生徒向け教材の総合入口とし、教材概�
 
 ## Completed（完了）
 
+- 2026-10-24：公開済みのJEV設計更新（368f107、7fe443f）を確認。プロフィールREADMEのJEV教材更新欄と直近5件の先頭に、初回試験の設計追記を反映し、commit `f0514f1` でGitHub `main` へPushした。GitHub上のREADMEファイルと公開プロフィールOverviewのHTMLで新しい2箇所を確認した。既存の2026-10-23のJEV履歴は残し、最古の2026-10-22のAI活用入門履歴を5件の表から外した。
 - 2026-10-24：GitHub `main` の commit `380160527c673751d2c6d5f1516af1c82d1c81b7` から独立した作業ツリーで、設計文書管理入門の見出しから「作成中」を外し、Privateの配布用Repositoryへのリンク・教材の収録状態・直近の更新履歴を現況に合わせた。利用者はREADMEとCURRENTのcommit・pushを明示指示した。公開プロフィールOverviewで、新見出し・配布先リンク・直近5件の表示を確認した。反映結果とcommit識別はGit履歴を正とする。
 - 2026-10-24：設計文書管理入門の履歴を加えたREADMEで、直近5件、画像の相対参照、git diff --check を確認した。公開プロフィール画面での表示は未確認。
 - 2026-10-18：READMEに公開Repository 8件を掲載しmainへ反映（da53969）。
@@ -49,21 +50,21 @@ GitHubプロフィールを生徒向け教材の総合入口とし、教材概�
 
 ## Current（現在）
 
-- 2026-10-24：今回の作業ツリーは GitHub `main` の commit `380160527c673751d2c6d5f1516af1c82d1c81b7` から独立して作成した。READMEの見出し、配布用Repositoryの説明と直近の更新履歴を実状態に合わせた。反映結果はGit履歴とGitHub `main`を正とする。元のローカルCloneは操作していない。
+- 2026-10-24：既存のローカルCloneをGitHub `main` の `919a06d` までfast-forwardで同期した。その後、READMEのJEV更新を `f0514f1` でPushし、GitHub上のREADMEファイルで反映を確認した。
 - プロフィールRepositoryはPublic、default branchはmain。公開プロフィールOverviewにREADME「教材案内」が表示されている。
 - 受講生用AI教材はPrivate。2026-10-22の配布ガイド追加・README更新を確認済み。受講生個別の権限付与状況は未確認。
 - READMEは公開方針と実状態を区別し、講師用正本への生徒向けリンクを掲載していない。直近5件を管理し、AI活用入門の指定2欄のみ配布実績に応じた自動更新の対象としている。
-- READMEの教材案内と更新履歴はmainへ反映済み。今回の直近5件は2026-10-24の設計文書管理入門とDokoTsubu、2026-10-23の判断特化型AIサンプルとポートフォリオ参考資料、2026-10-22のAI活用入門。
+- GitHub `main` のREADMEの直近5件は、2026-10-24の判断特化型AIサンプル・設計文書管理入門・DokoTsubu、2026-10-23の判断特化型AIサンプル・ポートフォリオ参考資料。
 - AI活用入門の説明文はmainへ反映済みで、公開プロフィールOverviewでも表示確認済み。自動履歴の受信workflowは同日通知で2回成功した。新しい配布日によるREADME自動更新は未検証。
 - 明るい大理石調の上下バナーと背景なしの上部タイトルはmainに反映済み。公開プロフィールOverviewで、指定順5教材、案内文、ポートフォリオ参考資料2リンクと合わせて表示確認済み。
-- 「DokoTsubu（機能追加中）」と「楽譜リーダー（Prototype）」の見出しはmainへ反映済み。DokoTsubuの新しい表示名は公開プロフィールOverviewでの表示未確認。
+- 「DokoTsubu（機能追加中）」と「楽譜リーダー（Prototype）」の見出しはmainへ反映済み。DokoTsubuの新しい表示名は公開プロフィールOverviewのHTMLでも確認した。
 - 設計文書管理入門の受講生向け配布RepositoryはPrivateのTemplate Repositoryであり、README・説明3文書・設計テンプレート7文書の計11ファイルが収録済みである。受講生個別のアクセスは未確認。
 
 ## Next（次）
 
 - 設計文書管理入門のリンク先を、受講生の権限で開けるか確認する。
 - 受講生個別の閲覧権限を確認する。
-- 新しい配布日によるREADME自動更新は未検証。追加の確認は利用者の再開指示後に行う。DokoTsubuの新しい表示名は公開プロフィールOverviewで確認する。
+- 新しい配布日によるREADME自動更新は未検証。追加の確認は利用者の再開指示後に行う。
 - Visibility変更は未承認のため実施しない。
 
 ## Blockers（阻害要因）
