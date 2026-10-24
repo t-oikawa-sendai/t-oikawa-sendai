@@ -1,12 +1,12 @@
 # CURRENT（現在地点）
 
 <details>
-<summary>Document Info（文書情報）｜PROFILE-CURRENT-001｜0.27｜Draft</summary>
+<summary>Document Info（文書情報）｜PROFILE-CURRENT-001｜0.28｜Draft</summary>
 
 | Item（項目） | Value（値） |
 |---|---|
 | Document ID（文書ID） | PROFILE-CURRENT-001 |
-| Version（バージョン） | 0.27 |
+| Version（バージョン） | 0.28 |
 | Status（ステータス） | Draft |
 | Created Date（作成日） | 2026-10-18 |
 | Last Updated（最終更新日） | 2026-10-24 |
@@ -21,6 +21,7 @@ GitHubプロフィールを生徒向け教材の総合入口とし、教材概�
 
 ## Completed（完了）
 
+- 2026-10-24：GitHub `main` の commit `380160527c673751d2c6d5f1516af1c82d1c81b7` から独立した作業ツリーで、設計文書管理入門の見出しから「作成中」を外し、Privateの配布用Repositoryへのリンク・教材の収録状態・直近の更新履歴を現況に合わせた。利用者はREADMEとCURRENTのcommit・pushを明示指示した。反映結果とcommit識別はGit履歴を正とする。
 - 2026-10-24：設計文書管理入門の履歴を加えたREADMEで、直近5件、画像の相対参照、git diff --check を確認した。公開プロフィール画面での表示は未確認。
 - 2026-10-18：READMEに公開Repository 8件を掲載しmainへ反映（da53969）。
 - 2026-10-18：LEARNING標準の3文書を導入し、3件のリンクに印を付けてmainへ反映（b843382）。
@@ -48,7 +49,7 @@ GitHubプロフィールを生徒向け教材の総合入口とし、教材概�
 
 ## Current（現在）
 
-- 2026-10-24：GitHub main `1bfb9aae3a7589e7bfb64b035d4aba2e9e78d51f` から独立したローカル作業ツリーで、設計文書管理入門の文書情報折りたたみを直近5件へ加えた。利用者は commit・push を明示指示した。反映状態は GitHub main と Git 履歴を正とする。元のローカルCloneにある既存未Commit変更は保持した。
+- 2026-10-24：今回の作業ツリーは GitHub `main` の commit `380160527c673751d2c6d5f1516af1c82d1c81b7` から独立して作成した。READMEの見出し、配布用Repositoryの説明と直近の更新履歴を実状態に合わせた。反映結果はGit履歴とGitHub `main`を正とする。元のローカルCloneは操作していない。
 - プロフィールRepositoryはPublic、default branchはmain。公開プロフィールOverviewにREADME「教材案内」が表示されている。
 - 受講生用AI教材はPrivate。2026-10-22の配布ガイド追加・README更新を確認済み。受講生個別の権限付与状況は未確認。
 - READMEは公開方針と実状態を区別し、講師用正本への生徒向けリンクを掲載していない。直近5件を管理し、AI活用入門の指定2欄のみ配布実績に応じた自動更新の対象としている。
@@ -56,11 +57,11 @@ GitHubプロフィールを生徒向け教材の総合入口とし、教材概�
 - AI活用入門の説明文はmainへ反映済みで、公開プロフィールOverviewでも表示確認済み。自動履歴の受信workflowは同日通知で2回成功した。新しい配布日によるREADME自動更新は未検証。
 - 明るい大理石調の上下バナーと背景なしの上部タイトルはmainに反映済み。公開プロフィールOverviewで、指定順5教材、案内文、ポートフォリオ参考資料2リンクと合わせて表示確認済み。
 - 「DokoTsubu（機能追加中）」と「楽譜リーダー（Prototype）」の見出しはmainへ反映済み。DokoTsubuの新しい表示名は公開プロフィールOverviewでの表示未確認。
-- 設計文書管理入門の受講生向け配布Repositoryは未作成。
+- 設計文書管理入門の受講生向け配布RepositoryはPrivateのTemplate Repositoryであり、README・説明3文書・設計テンプレート7文書の計11ファイルが収録済みである。受講生個別のアクセスは未確認。
 
 ## Next（次）
 
-- 設計文書管理入門の更新履歴を公開プロフィール画面で確認する。
+- 設計文書管理入門の見出し、リンク、更新履歴を公開プロフィール画面で確認する。
 - 受講生個別の閲覧権限を確認する。
 - 新しい配布日によるREADME自動更新は未検証。追加の確認は利用者の再開指示後に行う。DokoTsubuの新しい表示名は公開プロフィールOverviewで確認する。
 - Visibility変更は未承認のため実施しない。
@@ -68,7 +69,7 @@ GitHubプロフィールを生徒向け教材の総合入口とし、教材概�
 ## Blockers（阻害要因）
 
 - 受講生個別の権限付与状況は未確認。
-- 設計文書管理入門の受講生向け配布Repositoryは未作成。
+- 設計文書管理入門の受講生向け配布Repositoryへの初回投入は完了した。継続同期の設定と受講生個別のアクセス確認は未実施。
 - 新しい配布日によるREADME自動更新は未検証。
 
 ## Related Decisions（関連Decision）
