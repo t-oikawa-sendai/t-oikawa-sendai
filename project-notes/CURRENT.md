@@ -1,15 +1,15 @@
 # CURRENT（現在地点）
 
 <details>
-<summary>Document Info（文書情報）｜PROFILE-CURRENT-001｜0.24｜Draft</summary>
+<summary>Document Info（文書情報）｜PROFILE-CURRENT-001｜0.25｜Draft</summary>
 
 | Item（項目） | Value（値） |
 |---|---|
 | Document ID（文書ID） | PROFILE-CURRENT-001 |
-| Version（バージョン） | 0.24 |
+| Version（バージョン） | 0.25 |
 | Status（ステータス） | Draft |
 | Created Date（作成日） | 2026-10-18 |
-| Last Updated（最終更新日） | 2026-10-23 |
+| Last Updated（最終更新日） | 2026-10-24 |
 | Owner（管理者） | Takashi Oikawa |
 | Related Documents（関連文書） | ../README.md / ../CONSTITUTION.md / ../AGENTS.md |
 
@@ -40,14 +40,17 @@ GitHubプロフィールを生徒向け教材の総合入口とし、教材概�
 - 2026-10-23：両表示名の修正をmainへ反映（9e9b8ce）。公開プロフィールOverviewで「DokoTsubu（Springboot Version）」と「楽譜リーダー（Prototype）」の表示をブラウザで確認。
 - 2026-10-23：AI活用入門の説明文をUser指定の文言へ置き換え、READMEだけをmainへ反映（26d86f2f0f2acbb710bc5b50bf42be543691ba18）。公開プロフィールOverviewで指定文言の表示と旧文の非表示をブラウザ確認。
 - 2026-10-23：配布先Private Repositoryに実際に反映された更新だけをプロフィール履歴へ反映する受信workflow・script・テストと、User採用済みの指定2欄だけの自動Commit・Push例外（D-001）をmainへ反映（c88a4286da54ae301fb971aadf4ad7a17d7d83cf）。GitHub main上の4ファイルを確認。Actions起動・稼働は未確認。
+- 2026-10-23：同日通知による受信workflowの実行が2回成功したことをActionsで確認。新しい配布日によるREADME自動更新は未検証。
+- 2026-10-24：READMEへ判断特化型AIサンプルとポートフォリオ参考資料の更新を反映（78e301b、bc6ee14）。
+- 2026-10-24：`dokoTsubu-platform` の30文書の文書情報を折りたたみ表示へ変更した公開commit（a309661）を確認し、プロフィールREADMEのDokoTsubu教材更新欄と直近5件へ反映。アプリ機能の変更はない。
 
 ## Current（現在）
 
 - プロフィールRepositoryはPublic、default branchはmain。公開プロフィールOverviewにREADME「教材案内」が表示されている。
 - 受講生用AI教材はPrivate。2026-10-22の配布ガイド追加・README更新を確認済み。受講生個別の権限付与状況は未確認。
-- READMEは公開方針と実状態を区別し、講師用正本への生徒向けリンクを掲載していない。更新履歴5件を手動で管理している。
-- READMEの教材案内と更新履歴はmainへ反映済み。直近5件は2026-10-22のAI活用入門が先頭で、残り4件の教材名はDokoTsubu（Springboot Version）に更新済み。
-- AI活用入門の説明文はmainへ反映済みで、公開プロフィールOverviewでも表示確認済み。自動履歴の受信workflow設定はmainに公開済み。通知用Secretが未登録のため連携は未稼働で、Actions起動は未確認。READMEは未変更・更新履歴は手動管理のまま。
+- READMEは公開方針と実状態を区別し、講師用正本への生徒向けリンクを掲載していない。直近5件を管理し、AI活用入門の指定2欄のみ配布実績に応じた自動更新の対象としている。
+- READMEの教材案内と更新履歴はmainへ反映済み。直近5件は2026-10-24のDokoTsubu、2026-10-23の判断特化型AIサンプルとポートフォリオ参考資料、2026-10-22のAI活用入門、2026-10-15のDokoTsubu。
+- AI活用入門の説明文はmainへ反映済みで、公開プロフィールOverviewでも表示確認済み。自動履歴の受信workflowは同日通知で2回成功した。新しい配布日によるREADME自動更新は未検証。
 - 明るい大理石調の上下バナーと背景なしの上部タイトルはmainに反映済み。公開プロフィールOverviewで、指定順5教材、案内文、ポートフォリオ参考資料2リンクと合わせて表示確認済み。
 - 「DokoTsubu（Springboot Version）」と「楽譜リーダー（Prototype）」の見出しはmainへ反映済みで、公開プロフィールOverviewで表示確認済み。
 - 設計文書管理入門の受講生向け配布Repositoryは未作成。
@@ -55,14 +58,14 @@ GitHubプロフィールを生徒向け教材の総合入口とし、教材概�
 ## Next（次）
 
 - 受講生個別の閲覧権限を確認する。
-- 講師正本側の採用済み通知設定を反映し、通知用Secretを登録する。Actionsの実行結果と公開プロフィール表示は別途確認する。Userは指定2欄に限る自動Commit・Pushを承認済み。
+- 新しい配布日によるREADME自動更新は未検証。追加の確認は利用者の再開指示後に行う。今回のREADME更新後の公開プロフィールOverview表示は別途確認する。
 - Visibility変更は未承認のため実施しない。
 
 ## Blockers（阻害要因）
 
 - 受講生個別の権限付与状況は未確認。
 - 設計文書管理入門の受講生向け配布Repositoryは未作成。
-- 通知用Secretが未登録で連携未稼働。Actions起動・結果は未確認。
+- 新しい配布日によるREADME自動更新は未検証。
 
 ## Related Decisions（関連Decision）
 
