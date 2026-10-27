@@ -1,15 +1,15 @@
 # CURRENT（現在地点）
 
 <details>
-<summary>Document Info（文書情報）｜PROFILE-CURRENT-001｜0.29｜Draft</summary>
+<summary>Document Info（文書情報）｜PROFILE-CURRENT-001｜0.30｜Draft</summary>
 
 | Item（項目） | Value（値） |
 |---|---|
 | Document ID（文書ID） | PROFILE-CURRENT-001 |
-| Version（バージョン） | 0.29 |
+| Version（バージョン） | 0.30 |
 | Status（ステータス） | Draft |
 | Created Date（作成日） | 2026-10-18 |
-| Last Updated（最終更新日） | 2026-10-24 |
+| Last Updated（最終更新日） | 2026-10-27 |
 | Owner（管理者） | Takashi Oikawa |
 | Related Documents（関連文書） | ../README.md / ../CONSTITUTION.md / ../AGENTS.md |
 
@@ -21,6 +21,7 @@ GitHubプロフィールを生徒向け教材の総合入口とし、教材概�
 
 ## Completed（完了）
 
+- 2026-10-27：利用者の「①を実行」に基づき、GitHub `main` = `8db77c8cf77bb411ef73f890c3b0fc8383bf0c34` と一致する独立Clone（開始時clean）で履歴更新scriptを修正した。AI履歴が直近5件から外れた正常状態を許容し、残っているAI履歴の日付不一致と、表示範囲内のAI履歴欠落は引き続きエラーにする。同日境界も扱う。変動するREADMEに依存していたテストを固定入力へ変更し、再発防止項目を含む14件が成功。現行READMEの一時コピーでコマンド実行を確認し、指定2欄だけの更新、5行維持、同日・古い通知の無変更、不正日付・未来日付でのファイル保全を確認した。追跡対象READMEは変更していない。完了範囲は独立Clone上の修正・確認のみで、Commit・Push・Actions再実行は未実施。
 - 2026-10-24：公開済みのJEV設計更新（368f107、7fe443f）を確認。プロフィールREADMEのJEV教材更新欄と直近5件の先頭に、初回試験の設計追記を反映し、commit `f0514f1` でGitHub `main` へPushした。GitHub上のREADMEファイルと公開プロフィールOverviewのHTMLで新しい2箇所を確認した。既存の2026-10-23のJEV履歴は残し、最古の2026-10-22のAI活用入門履歴を5件の表から外した。
 - 2026-10-24：GitHub `main` の commit `380160527c673751d2c6d5f1516af1c82d1c81b7` から独立した作業ツリーで、設計文書管理入門の見出しから「作成中」を外し、Privateの配布用Repositoryへのリンク・教材の収録状態・直近の更新履歴を現況に合わせた。利用者はREADMEとCURRENTのcommit・pushを明示指示した。公開プロフィールOverviewで、新見出し・配布先リンク・直近5件の表示を確認した。反映結果とcommit識別はGit履歴を正とする。
 - 2026-10-24：設計文書管理入門の履歴を加えたREADMEで、直近5件、画像の相対参照、git diff --check を確認した。公開プロフィール画面での表示は未確認。
@@ -50,12 +51,14 @@ GitHubプロフィールを生徒向け教材の総合入口とし、教材概�
 
 ## Current（現在）
 
+- 2026-10-27：修正の基点はGitHub `main` と一致する独立Cloneの `8db77c8cf77bb411ef73f890c3b0fc8383bf0c34`。修正対象は `scripts/update_profile_history.py`、`tests/test_update_profile_history.py`、本CURRENTの3ファイル。利用者はローカル確認・同期をMacBook側で行い、GitHub側の残作業をここで続行するよう指示した。実機の存在・保存場所・同期状態は未確認で、Mac miniにRepositoryがないと確認したわけではない。
+- S-IECD本文は引き続き生徒向け配布対象外。今回配布先に反映されたのは共通目次 `personas/reference/README.md` の版番号と更新日のみで、それを契機にプロフィール更新が起動した。このscript修正はペルソナ利用の必須条件ではなく、別件の不具合対応である。
 - 2026-10-24：既存のローカルCloneをGitHub `main` の `919a06d` までfast-forwardで同期した。その後、READMEのJEV更新を `f0514f1` でPushし、GitHub上のREADMEファイルで反映を確認した。
 - プロフィールRepositoryはPublic、default branchはmain。公開プロフィールOverviewにREADME「教材案内」が表示されている。
 - 受講生用AI教材はPrivate。2026-10-22の配布ガイド追加・README更新を確認済み。受講生個別の権限付与状況は未確認。
 - READMEは公開方針と実状態を区別し、講師用正本への生徒向けリンクを掲載していない。直近5件を管理し、AI活用入門の指定2欄のみ配布実績に応じた自動更新の対象としている。
 - GitHub `main` のREADMEの直近5件は、2026-10-24の判断特化型AIサンプル・設計文書管理入門・DokoTsubu、2026-10-23の判断特化型AIサンプル・ポートフォリオ参考資料。
-- AI活用入門の説明文はmainへ反映済みで、公開プロフィールOverviewでも表示確認済み。自動履歴の受信workflowは同日通知で2回成功した。新しい配布日によるREADME自動更新は未検証。
+- AI活用入門の説明文はmainへ反映済みで、公開プロフィールOverviewでも表示確認済み。自動履歴の受信workflowは同日通知で2回成功したが、2026-10-27の[run 40441625606](https://github.com/t-oikawa-sendai/t-oikawa-sendai/actions/runs/40441625606)は失敗。直近5件から古いAI履歴が外れた状態をエラーにする条件を独立Cloneで修正済み。GitHub上での修正反映と正常終了は未確認。
 - 明るい大理石調の上下バナーと背景なしの上部タイトルはmainに反映済み。公開プロフィールOverviewで、指定順5教材、案内文、ポートフォリオ参考資料2リンクと合わせて表示確認済み。
 - 「DokoTsubu（機能追加中）」と「楽譜リーダー（Prototype）」の見出しはmainへ反映済み。DokoTsubuの新しい表示名は公開プロフィールOverviewのHTMLでも確認した。
 - 設計文書管理入門の受講生向け配布RepositoryはPrivateのTemplate Repositoryであり、README・説明3文書・設計テンプレート7文書の計11ファイルが収録済みである。受講生個別のアクセスは未確認。
@@ -64,14 +67,16 @@ GitHubプロフィールを生徒向け教材の総合入口とし、教材概�
 
 - 設計文書管理入門のリンク先を、受講生の権限で開けるか確認する。
 - 受講生個別の閲覧権限を確認する。
-- 新しい配布日によるREADME自動更新は未検証。追加の確認は利用者の再開指示後に行う。
+- 利用者の続行指示に基づき修正をCommit・Pushし、D-001どおり講師正本の同期workflowから配布日を再取得・通知して、プロフィールの自動更新結果を確認する。
+- ローカル確認・同期は利用者がMacBook側で行う。実機で未Commit変更・接続先・branchを確認してから安全に同期する。
 - Visibility変更は未承認のため実施しない。
 
 ## Blockers（阻害要因）
 
 - 受講生個別の権限付与状況は未確認。
 - 設計文書管理入門の受講生向け配布Repositoryへの初回投入は完了した。継続同期の設定と受講生個別のアクセス確認は未実施。
-- 新しい配布日によるREADME自動更新は未検証。
+- GitHub上には不具合が残っており、修正のCommit・PushとActions再実行は未実施。独立Cloneでのテスト成功をGitHub稼働確認済みとは扱わない。
+- Mac内の既存Repositoryにアクセスできないため、実機側の同期状態は未確認。
 
 ## Related Decisions（関連Decision）
 

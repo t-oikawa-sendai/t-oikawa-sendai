@@ -71,7 +71,12 @@ def update_readme(content: str, distributed_date: str) -> str:
         end += 1
     if len(entries) != 5 or entries != sorted(entries, key=lambda item: item[0], reverse=True):
         raise ValueError("Expected five date-descending recent updates")
-    if not any(day == current_date and material == MATERIAL for day, material, _ in entries):
+    ai_dates = [day for day, material, _ in entries if material == MATERIAL]
+    if ai_dates and max(ai_dates) != current_date:
+        raise ValueError("AI material field and history do not agree")
+    # The latest AI update can legitimately fall outside the five visible rows.
+    # Equal dates are also allowed: the table has no time-of-day ordering.
+    if not ai_dates and current_date > entries[-1][0]:
         raise ValueError("AI material field and history do not agree")
 
     # Repeated or delayed dispatches must preserve an existing same-day summary.
