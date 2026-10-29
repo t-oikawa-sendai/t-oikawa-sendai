@@ -10,7 +10,7 @@
 
 受講生限定を開く場合は、GitHubアカウントでログインしてください。
 
-リンク先を開けない場合は、講師_及川までご連絡ください。
+教材への招待を受けたがリンク先を開けない場合は、GitHubユーザー名を講師_及川までご連絡ください。
 
 ### [AI活用入門（ai-setup-materials-student）](https://github.com/OSLIB21-materials/ai-setup-materials-student)
 
