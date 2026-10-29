@@ -1,12 +1,12 @@
 # CURRENT（現在地点）
 
 <details>
-<summary>Document Info（文書情報）｜PROFILE-CURRENT-001｜0.32｜Draft</summary>
+<summary>Document Info（文書情報）｜PROFILE-CURRENT-001｜0.33｜Draft</summary>
 
 | Item（項目） | Value（値） |
 |---|---|
 | Document ID（文書ID） | PROFILE-CURRENT-001 |
-| Version（バージョン） | 0.32 |
+| Version（バージョン） | 0.33 |
 | Status（ステータス） | Draft |
 | Created Date（作成日） | 2026-10-18 |
 | Last Updated（最終更新日） | 2026-10-29 |
@@ -54,7 +54,7 @@ GitHubプロフィールを生徒向け教材の総合入口とし、教材概�
 
 ## Current（現在）
 
-- 2026-10-29：READMEのAI教材更新欄と10月29日の履歴行に、配布済みの生徒用手順書の招待期限7日間・任意の個人コピー作成・Persona更新時の再取得を反映済み。GitHub本文と公開プロフィールの指定2箇所を確認した。保存作業中のUser追加指示により、入口の連絡文を「教材への招待を受けたがリンク先を開けない場合は、GitHubユーザー名を講師_及川までご連絡ください。」へ差し替え、本完了記録と同じCommitの保存対象に含める。この追加文のGitHub反映と公開表示は当該Commitの実測で確認する。Mac実機の既存Repositoryの確認・同期は別途残る。
+- 2026-10-29：READMEのAI教材更新欄と10月29日の履歴行に、配布済みの生徒用手順書の招待期限7日間・任意の個人コピー作成・Persona更新時の再取得を反映済み。GitHub本文と公開プロフィールの指定2箇所を確認した。保存作業中のUser追加指示により、入口の連絡文を「教材への招待メールが届いているにもかかわらずリンク先にアクセスできない場合は、GitHubのユーザー名を添えて、講師_及川までご連絡ください。」へ差し替え、本完了記録と同じCommitの保存対象に含める。この追加文のGitHub反映と公開表示は当該Commitの実測で確認する。Mac実機の既存Repositoryの確認・同期は別途残る。
 - GitHub公開版の履歴は10月29日・28日・27日のAI活用入門、10月24日の判断特化型AIサンプルと設計文書管理入門の5件。AI教材の更新日は10月29日。今回の具体的な要約も公開版へ反映済み。
 - 2026-10-24：既存のローカルCloneをGitHub `main` の `919a06d` までfast-forwardで同期した。その後、READMEのJEV更新を `f0514f1` でPushし、GitHub上のREADMEファイルで反映を確認した。
 - プロフィールRepositoryはPublic、default branchはmain。公開プロフィールOverviewにREADME「教材案内」が表示されている。
