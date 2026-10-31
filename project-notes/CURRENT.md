@@ -1,15 +1,15 @@
 # CURRENT（現在地点）
 
 <details>
-<summary>Document Info（文書情報）｜PROFILE-CURRENT-001｜0.33｜Draft</summary>
+<summary>Document Info（文書情報）｜PROFILE-CURRENT-001｜0.34｜Draft</summary>
 
 | Item（項目） | Value（値） |
 |---|---|
 | Document ID（文書ID） | PROFILE-CURRENT-001 |
-| Version（バージョン） | 0.33 |
+| Version（バージョン） | 0.34 |
 | Status（ステータス） | Draft |
 | Created Date（作成日） | 2026-10-18 |
-| Last Updated（最終更新日） | 2026-10-29 |
+| Last Updated（最終更新日） | 2026-10-31 |
 | Owner（管理者） | Takashi Oikawa |
 | Related Documents（関連文書） | ../README.md / ../CONSTITUTION.md / ../AGENTS.md |
 
@@ -21,6 +21,7 @@ GitHubプロフィールを生徒向け教材の総合入口とし、教材概�
 
 ## Completed（完了）
 
+- 2026-10-31：公開済みの `dokoTsubu-platform` main（`a8d2ee0d927a58b57a36221fa1cb5871f2a44ce9`）を確認し、Version 1.5が授業用サンプルソースで、動作確認は行わないことを確認した。プロフィールREADMEのDokoTsubu教材更新欄と直近5件に、公開アプリの機能追加ではないことを明記した。MacBook Airの本cloneは、未commit差分なしの状態からGitHub mainの `9f0ba4cc951b13bf848ef9b94ef522e271d0e11a` へ早送り同期した。
 - 2026-10-29：Userの「Commit Push」指示に基づき、READMEのAI教材更新欄と10月29日の履歴行を具体的な説明へ変更し、GitHub mainの `d38d349a32003a67ee15767908ea309d067a14c2` に保存した。GitHub本文の再取得で一致し、公開プロフィール `https://github.com/t-oikawa-sendai` のHTML（HTTP 200）でも新しい説明が指定2箇所に表示されることを確認した。日付降順の5件と他教材・画像・リンクを保持。同日・古い通知で説明が変わらないことを既存scriptで確認し、実際の[受信run 40874423322](https://github.com/t-oikawa-sendai/t-oikawa-sendai/actions/runs/40874423322)もsuccessでREADMEとmainは変化しなかった。独立CloneのHEAD・origin/mainも成果物Commitと一致。本完了記録は後続Commitへ保存する。
 - 2026-10-29：GitHub mainの `ea15366201aeea58d7fcce2a60606891d790fa56` を取得し、AI教材更新欄と直近5件の先頭に10月29日の定型更新が反映済みであることを確認した。同HEADの独立Cloneを `/workspace/scratch/df1514d07dbc/profile-history-update` に作成し、変更前のmain・origin/main・GitHub mainの一致とcleanを確認した。Mac実機の既存Repositoryは未確認・未操作。
 - 2026-10-27：利用者の続行指示を受け、履歴更新script・テスト・CURRENTの3ファイルをcommit `21fbdfb34d4436b57cf8e095a4bc7ff8744b3a0e` でGitHub `main`へ反映し、3ファイルの本文・Blob SHAを再取得して作業用コピーと一致確認した。講師正本の[sync run 40441606946](https://github.com/t-oikawa-sendai/ai-setup-materials/actions/runs/40441606946)を再実行し成功。配布先のCommitは変わらず、31ファイル・S-IECD本文の配布除外を維持した。通知を受けた[profile run 40448246269](https://github.com/t-oikawa-sendai/t-oikawa-sendai/actions/runs/40448246269)も成功し、READMEだけを自動commit `799220859814fc0932fb5dcbc65daf22e2c88ad9` で更新した。GitHubからREADMEを再取得し、AI教材の更新日が2026-10-27、履歴は日付降順5件、指定2欄以外は変更なしと確認。独立Cloneを自動更新commitまでfast-forwardで同期しcleanを確認した。MacBookの既存Repositoryは未確認・未操作で、利用者が別途確認・同期する。
@@ -54,8 +55,8 @@ GitHubプロフィールを生徒向け教材の総合入口とし、教材概�
 
 ## Current（現在）
 
-- 2026-10-29：READMEのAI教材更新欄と10月29日の履歴行に、配布済みの生徒用手順書の招待期限7日間・任意の個人コピー作成・Persona更新時の再取得を反映済み。GitHub本文と公開プロフィールの指定2箇所を確認した。保存作業中のUser追加指示により、入口の連絡文を「教材への招待メールが届いているにもかかわらずリンク先にアクセスできない場合は、GitHubのユーザー名を添えて、講師_及川までご連絡ください。」へ差し替え、本完了記録と同じCommitの保存対象に含める。この追加文のGitHub反映と公開表示は当該Commitの実測で確認する。Mac実機の既存Repositoryの確認・同期は別途残る。
-- GitHub公開版の履歴は10月29日・28日・27日のAI活用入門、10月24日の判断特化型AIサンプルと設計文書管理入門の5件。AI教材の更新日は10月29日。今回の具体的な要約も公開版へ反映済み。
+- 2026-10-31：MacBook Airの本cloneをGitHub `main` の `9f0ba4cc951b13bf848ef9b94ef522e271d0e11a` へ早送り同期した。2026-10-29の教材案内と入口の連絡文は同CommitのREADMEで確認済み。今回のDokoTsubu更新は授業用サンプルソースの追加と説明訂正であり、公開アプリの機能追加ではない。
+- READMEの直近5件は、10月31日のDokoTsubu、10月29日・28日・27日のAI活用入門、10月24日の判断特化型AIサンプルである。AI教材の更新日は10月29日のまま維持する。
 - 2026-10-24：既存のローカルCloneをGitHub `main` の `919a06d` までfast-forwardで同期した。その後、READMEのJEV更新を `f0514f1` でPushし、GitHub上のREADMEファイルで反映を確認した。
 - プロフィールRepositoryはPublic、default branchはmain。公開プロフィールOverviewにREADME「教材案内」が表示されている。
 - READMEは公開方針と実状態を区別し、講師用正本への生徒向けリンクを掲載していない。直近5件を管理し、AI活用入門の指定2欄のみ配布実績に応じた自動更新の対象としている。
@@ -68,14 +69,12 @@ GitHubプロフィールを生徒向け教材の総合入口とし、教材概�
 
 - 設計文書管理入門のリンク先を、受講生の権限で開けるか確認する。
 - 受講生個別の閲覧権限を確認する。
-- ローカル確認・同期は利用者がMacBook側で行う。実機で未Commit変更・接続先・branchを確認してから安全に同期する。
 - Visibility変更は未承認のため実施しない。
 
 ## Blockers（阻害要因）
 
 - 受講生個別の権限付与状況は未確認。
 - 設計文書管理入門の受講生向け配布Repositoryへの初回投入は完了した。継続同期の設定と受講生個別のアクセス確認は未実施。
-- 今回のGitHub側の停止原因は解消を確認済み。MacBook内の既存Repositoryにはこの環境からアクセスできず、利用者による実機側の存在確認・同期が残る。
 
 ## Related Decisions（関連Decision）
 
