@@ -1,15 +1,15 @@
 # CURRENT（現在地点）
 
 <details>
-<summary>Document Info（文書情報）｜PROFILE-CURRENT-001｜0.35｜Draft</summary>
+<summary>Document Info（文書情報）｜PROFILE-CURRENT-001｜0.36｜Draft</summary>
 
 | Item（項目） | Value（値） |
 |---|---|
 | Document ID（文書ID） | PROFILE-CURRENT-001 |
-| Version（バージョン） | 0.35 |
+| Version（バージョン） | 0.36 |
 | Status（ステータス） | Draft |
 | Created Date（作成日） | 2026-10-18 |
-| Last Updated（最終更新日） | 2026-10-31 |
+| Last Updated（最終更新日） | 2026-11-02 |
 | Owner（管理者） | Takashi Oikawa |
 | Related Documents（関連文書） | ../README.md / ../CONSTITUTION.md / ../AGENTS.md |
 
@@ -23,6 +23,7 @@ Repository Purpose は LEARNING（2026-10-31、利用者が明示）。
 
 ## Completed（完了）
 
+- 2026-11-02：Userから生徒用マニュアルのCommit・Pushとプロフィール更新履歴の更新指示を受領。講師正本 `1e10e6b37a9465ccdeb1fdff28e921eca1f5df70` と配布先 `d8ea080cb25df1f46625f9d67dc77850c870df6a` の生徒用本文はblob `395712f4c6de9abf39793177f5a6720c3b394e98` で一致。[配布run 41443539044](https://github.com/t-oikawa-sendai/ai-setup-materials/actions/runs/41443539044)と[プロフィール受信run 41443566668](https://github.com/t-oikawa-sendai/t-oikawa-sendai/actions/runs/41443566668)はsuccess。自動更新を既存Dev cloneへfast-forwardで取り込んだ後、READMEのAI教材更新欄と11月2日の履歴行だけを具体的な説明へ変更。日付降順5件・他教材・リンク・画像を保持し、同日・古い通知が説明を上書きしないことを既存scriptで確認した。この記録とREADMEをUser承認に基づき保存する。保存・公開表示の成否はPush後に確認する。
 - 2026-10-31：利用者の指示により、プロフィールREADMEの表示名を「DokoTsubu Version3」へ変更し、Version 3のVercel公開、画面画像・設計図の更新、文書整備の完了扱いを変更概要と直近5件に反映した。根拠は `dokoTsubu-platform` のGitHub `main`（`b0344d215487aad9482139ceded04b39142e03d6`）。DokoTsubu本体の各文書のStatus欄は変更していない。
 - 2026-10-31：公開済みの `dokoTsubu-platform` main（`a8d2ee0d927a58b57a36221fa1cb5871f2a44ce9`）を確認し、Version 1.5が授業用サンプルソースで、動作確認は行わないことを確認した。プロフィールREADMEのDokoTsubu教材更新欄と直近5件に、公開アプリの機能追加ではないことを明記した。MacBook Airの本cloneは、未commit差分なしの状態からGitHub mainの `9f0ba4cc951b13bf848ef9b94ef522e271d0e11a` へ早送り同期した。
 - 2026-10-29：Userの「Commit Push」指示に基づき、READMEのAI教材更新欄と10月29日の履歴行を具体的な説明へ変更し、GitHub mainの `d38d349a32003a67ee15767908ea309d067a14c2` に保存した。GitHub本文の再取得で一致し、公開プロフィール `https://github.com/t-oikawa-sendai` のHTML（HTTP 200）でも新しい説明が指定2箇所に表示されることを確認した。日付降順の5件と他教材・画像・リンクを保持。同日・古い通知で説明が変わらないことを既存scriptで確認し、実際の[受信run 40874423322](https://github.com/t-oikawa-sendai/t-oikawa-sendai/actions/runs/40874423322)もsuccessでREADMEとmainは変化しなかった。独立CloneのHEAD・origin/mainも成果物Commitと一致。本完了記録は後続Commitへ保存する。
@@ -59,7 +60,7 @@ Repository Purpose は LEARNING（2026-10-31、利用者が明示）。
 ## Current（現在）
 
 - 2026-10-31：本cloneの編集前 `main` とGitHub `main` は `da9fc8ba1963fa21f82ae7b0cf19e03ebecd733e` で一致し、未commit差分はなかった。READMEにはDokoTsubu Version3の公開・文書整備完了扱いを掲載する。
-- READMEの直近5件は、10月31日のDokoTsubu Version3、10月29日・28日・27日のAI活用入門、10月24日の判断特化型AIサンプルである。AI教材の更新日は10月29日のまま維持する。
+- READMEの直近5件は、11月2日のAI活用入門、10月31日のDokoTsubu Version3、10月29日・28日・27日のAI活用入門。AI教材の更新日は11月2日で、配布確認済みの生徒用マニュアル改訂内容を掲載する。
 - 2026-10-24：既存のローカルCloneをGitHub `main` の `919a06d` までfast-forwardで同期した。その後、READMEのJEV更新を `f0514f1` でPushし、GitHub上のREADMEファイルで反映を確認した。
 - プロフィールRepositoryはPublic、default branchはmain。公開プロフィールOverviewにREADME「教材案内」が表示されている。
 - READMEは公開方針と実状態を区別し、講師用正本への生徒向けリンクを掲載していない。直近5件を管理し、AI活用入門の指定2欄のみ配布実績に応じた自動更新の対象としている。
